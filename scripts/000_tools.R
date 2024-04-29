@@ -1,6 +1,12 @@
 # load libraries
 setwd("~/repos/optimal-pine-regeneration")
 library(dplyr)
+library(caret)
+library(forcats)
 library(ggplot2)
 library(janitor)
+library(lme4)
+library(performance)
+library(randomForest)
+library(readr)
 library(rio)
